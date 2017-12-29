@@ -1,3 +1,3 @@
 # CompArcLabs
-体系实习的Lab们
-$ \frac{1}{2} $
+Labs in Computer Architecture
+## include: 
