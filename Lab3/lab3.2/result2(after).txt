@@ -1,0 +1,32 @@
+L1------------------------------
+access count: 814480
+access time: 2443440
+miss num: 23110
+miss rate: 0.028374
+replace_num(prefetch included): 0
+prefetch_num: 23110
+fetch from the lower layer: 92403
+bypass current level: 0
+L2------------------------------
+access count: 30783
+access time: 307830
+miss num: 23106
+miss rate: 0.750609
+replace_num(prefetch included): 14908
+prefetch_num: 23106
+fetch from the lower layer: 92403
+bypass current level: 0
+memory------------------------------
+access count: 31373
+access time: 3137300
+miss num: 0
+miss rate: 0.000000
+replace_num(prefetch included): 0
+prefetch_num: 0
+fetch from the lower layer: 0
+bypass current level: 0
+
+Access Count: : 814480
+Total Access Time(in cycles, prefetch time not included): 5888570
+amat1: 5.413512
+amat2: 7.229852
