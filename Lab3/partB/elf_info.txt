@@ -1,0 +1,386 @@
+ELF Header:
+ magic number:  7f454c46211000000000
+ Class:  ELFCLASS64
+ Data:  little-endian
+ Version:   
+ OS/ABI:	 System V ABI
+ ABI Version:   
+ Type:   2
+ Machine:   f3
+ Version:  1
+ Entry point address:  0x100b0
+ Start of program headers: 64 bytes into  file
+ Start of section headers: 9408 bytes into  file
+ Flags:  0x5
+ Size of this header: 64 Bytes
+ Size of program headers: 56 Bytes
+ Number of program headers: 2
+ Size of section headers: 64 Bytes
+ Number of section headers: 13
+ Section header string table index: 12
+
+section headers:
+ [  0]
+ Name:                      Type: NULL Address:  0000000000000000 Offest:  00000000
+ Size:  0 Entsize:  0
+ Flags:   0 Link:  0 Info:  0 Align: 0
+ [  1]
+ Name:                .text Type: PROGBITS Address:  00000000000100b0 Offest:  000000b0
+ Size:  2134 Entsize:  0
+ Flags:   6 Link:  0 Info:  0 Align: 4
+ [  2]
+ Name:            .eh_frame Type: PROGBITS Address:  0000000000010908 Offest:  00000908
+ Size:  96 Entsize:  0
+ Flags:   2 Link:  0 Info:  0 Align: 8
+ [  3]
+ Name:          .init_array Type: INIT_ARRAY Address:  0000000000011000 Offest:  00001000
+ Size:  8 Entsize:  8
+ Flags:   3 Link:  0 Info:  0 Align: 8
+ [  4]
+ Name:          .fini_array Type: FINI_ARRAY Address:  0000000000011008 Offest:  00001008
+ Size:  8 Entsize:  8
+ Flags:   3 Link:  0 Info:  0 Align: 8
+ [  5]
+ Name:                .data Type: PROGBITS Address:  0000000000011010 Offest:  00001010
+ Size:  1864 Entsize:  0
+ Flags:   3 Link:  0 Info:  0 Align: 8
+ [  6]
+ Name:               .sdata Type: PROGBITS Address:  0000000000011758 Offest:  00001758
+ Size:  40 Entsize:  0
+ Flags:   3 Link:  0 Info:  0 Align: 8
+ [  7]
+ Name:                .sbss Type: NOBITS Address:  0000000000011780 Offest:  00001780
+ Size:  8 Entsize:  0
+ Flags:   3 Link:  0 Info:  0 Align: 8
+ [  8]
+ Name:                 .bss Type: NOBITS Address:  0000000000011788 Offest:  00001780
+ Size:  72 Entsize:  0
+ Flags:   3 Link:  0 Info:  0 Align: 8
+ [  9]
+ Name:             .comment Type: PROGBITS Address:  0000000000000000 Offest:  00001780
+ Size:  26 Entsize:  1
+ Flags:   48 Link:  0 Info:  0 Align: 1
+ [ 10]
+ Name:              .symtab Type: SYMTAB Address:  0000000000000000 Offest:  000017a0
+ Size:  2400 Entsize:  24
+ Flags:   0 Link:  11 Info:  44 Align: 8
+ [ 11]
+ Name:              .strtab Type: STRTAB Address:  0000000000000000 Offest:  00002100
+ Size:  859 Entsize:  0
+ Flags:   0 Link:  0 Info:  0 Align: 1
+ [ 12]
+ Name:            .shstrtab Type: STRTAB Address:  0000000000000000 Offest:  0000245b
+ Size:  100 Entsize:  0
+ Flags:   0 Link:  0 Info:  0 Align: 1
+
+
+
+Symbol table:
+ [  0]    Name:                                            
+ Bind:   LOCAL
+ Type:   NOTYPE Size:   0 Value:  0000000000000000
+ [  1]    Name:                                            
+ Bind:   LOCAL
+ Type:   SECTION Size:   0 Value:  00000000000100b0
+ [  2]    Name:                                            
+ Bind:   LOCAL
+ Type:   SECTION Size:   0 Value:  0000000000010908
+ [  3]    Name:                                            
+ Bind:   LOCAL
+ Type:   SECTION Size:   0 Value:  0000000000011000
+ [  4]    Name:                                            
+ Bind:   LOCAL
+ Type:   SECTION Size:   0 Value:  0000000000011008
+ [  5]    Name:                                            
+ Bind:   LOCAL
+ Type:   SECTION Size:   0 Value:  0000000000011010
+ [  6]    Name:                                            
+ Bind:   LOCAL
+ Type:   SECTION Size:   0 Value:  0000000000011758
+ [  7]    Name:                                            
+ Bind:   LOCAL
+ Type:   SECTION Size:   0 Value:  0000000000011780
+ [  8]    Name:                                            
+ Bind:   LOCAL
+ Type:   SECTION Size:   0 Value:  0000000000011788
+ [  9]    Name:                                            
+ Bind:   LOCAL
+ Type:   SECTION Size:   0 Value:  0000000000000000
+ [ 10]    Name:                                crtstuff.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 11]    Name:                        __EH_FRAME_BEGIN__  
+ Bind:   LOCAL
+ Type:   OBJECT Size:   0 Value:  0000000000010908
+ [ 12]    Name:                      deregister_tm_clones  
+ Bind:   LOCAL
+ Type:   FUNC Size:   0 Value:  00000000000100f4
+ [ 13]    Name:                        register_tm_clones  
+ Bind:   LOCAL
+ Type:   FUNC Size:   0 Value:  0000000000010118
+ [ 14]    Name:                     __do_global_dtors_aux  
+ Bind:   LOCAL
+ Type:   FUNC Size:   0 Value:  0000000000010144
+ [ 15]    Name:                            completed.5184  
+ Bind:   LOCAL
+ Type:   OBJECT Size:   1 Value:  0000000000011788
+ [ 16]    Name:    __do_global_dtors_aux_fini_array_entry  
+ Bind:   LOCAL
+ Type:   OBJECT Size:   0 Value:  0000000000011008
+ [ 17]    Name:                               frame_dummy  
+ Bind:   LOCAL
+ Type:   FUNC Size:   0 Value:  000000000001017e
+ [ 18]    Name:                               object.5189  
+ Bind:   LOCAL
+ Type:   OBJECT Size:   48 Value:  0000000000011790
+ [ 19]    Name:            __frame_dummy_init_array_entry  
+ Bind:   LOCAL
+ Type:   OBJECT Size:   0 Value:  0000000000011000
+ [ 20]    Name:                                     9.cpp  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 21]    Name:                                  atexit.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 22]    Name:                                    exit.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 23]    Name:                                    fini.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 24]    Name:                                  impure.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 25]    Name:                               impure_data  
+ Bind:   LOCAL
+ Type:   OBJECT Size:   1864 Value:  0000000000011010
+ [ 26]    Name:                                    init.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 27]    Name:                                __atexit.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 28]    Name:                           __call_atexit.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 29]    Name:                                syscalls.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 30]    Name:                                 conv_stat  
+ Bind:   LOCAL
+ Type:   FUNC Size:   65 Value:  00000000000104fa
+ [ 31]    Name:                        __internal_syscall  
+ Bind:   LOCAL
+ Type:   FUNC Size:   27 Value:  000000000001055c
+ [ 32]    Name:                             heap_end.2611  
+ Bind:   LOCAL
+ Type:   OBJECT Size:   8 Value:  0000000000011780
+ [ 33]    Name:                                   t0.2574  
+ Bind:   LOCAL
+ Type:   OBJECT Size:   16 Value:  00000000000117c0
+ [ 34]    Name:                                   errno.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 35]    Name:                                crtstuff.c  
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 36]    Name:                             __FRAME_END__  
+ Bind:   LOCAL
+ Type:   OBJECT Size:   0 Value:  0000000000010964
+ [ 37]    Name:                                            
+ Bind:   LOCAL
+ Type:   FILE Size:   0 Value:  0000000000000000
+ [ 38]    Name:                          __fini_array_end  
+ Bind:   LOCAL
+ Type:   NOTYPE Size:   0 Value:  0000000000011010
+ [ 39]    Name:                        __fini_array_start  
+ Bind:   LOCAL
+ Type:   NOTYPE Size:   0 Value:  0000000000011008
+ [ 40]    Name:                          __init_array_end  
+ Bind:   LOCAL
+ Type:   NOTYPE Size:   0 Value:  0000000000011008
+ [ 41]    Name:                       __preinit_array_end  
+ Bind:   LOCAL
+ Type:   NOTYPE Size:   0 Value:  0000000000011000
+ [ 42]    Name:                        __init_array_start  
+ Bind:   LOCAL
+ Type:   NOTYPE Size:   0 Value:  0000000000011000
+ [ 43]    Name:                     __preinit_array_start  
+ Bind:   LOCAL
+ Type:   NOTYPE Size:   0 Value:  0000000000011000
+ [ 44]    Name:                                  _Z4testv  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   119 Value:  00000000000101a8
+ [ 45]    Name:                                   fstatat  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   57 Value:  000000000001068a
+ [ 46]    Name:                                   sysconf  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   19 Value:  0000000000010874
+ [ 47]    Name:                         __global_pointer$  
+ Bind:   GLOBAL
+ Type:   NOTYPE Size:   0 Value:  0000000000011f58
+ [ 48]    Name:                                     utime  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   3 Value:  0000000000010860
+ [ 49]    Name:                                         b  
+ Bind:   GLOBAL
+ Type:   OBJECT Size:   4 Value:  0000000000011764
+ [ 50]    Name:                                 faccessat  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   31 Value:  00000000000106e0
+ [ 51]    Name:                                   __errno  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   5 Value:  00000000000108fe
+ [ 52]    Name:                                     times  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   97 Value:  00000000000107f2
+ [ 53]    Name:                                    execve  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   23 Value:  0000000000010758
+ [ 54]    Name:                                    getpid  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   3 Value:  0000000000010784
+ [ 55]    Name:                               __TMC_END__  
+ Bind:   GLOBAL
+ Type:   OBJECT Size:   0 Value:  0000000000011758
+ [ 56]    Name:                                    isatty  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   29 Value:  00000000000107b4
+ [ 57]    Name:                              __dso_handle  
+ Bind:   GLOBAL
+ Type:   OBJECT Size:   0 Value:  0000000000011758
+ [ 58]    Name:                                     lseek  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   19 Value:  00000000000105b4
+ [ 59]    Name:                        _global_impure_ptr  
+ Bind:   GLOBAL
+ Type:   OBJECT Size:   8 Value:  0000000000011770
+ [ 60]    Name:                                     chown  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   3 Value:  0000000000010864
+ [ 61]    Name:                         __libc_init_array  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   101 Value:  00000000000102d2
+ [ 62]    Name:                                     chmod  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   3 Value:  0000000000010868
+ [ 63]    Name:                                     _init  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   2 Value:  00000000000100f2
+ [ 64]    Name:                         __libc_fini_array  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   75 Value:  0000000000010284
+ [ 65]    Name:                                     write  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   19 Value:  00000000000105d8
+ [ 66]    Name:                                     fstat  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   49 Value:  00000000000105ec
+ [ 67]    Name:                                      kill  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   19 Value:  0000000000010788
+ [ 68]    Name:                                     chdir  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   3 Value:  000000000001086c
+ [ 69]    Name:                                      wait  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   23 Value:  000000000001079c
+ [ 70]    Name:                          __call_exitprocs  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   173 Value:  000000000001044a
+ [ 71]    Name:                                    _start  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   66 Value:  00000000000100b0
+ [ 72]    Name:                                     lstat  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   49 Value:  0000000000010658
+ [ 73]    Name:                                      read  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   15 Value:  00000000000105c8
+ [ 74]    Name:                       __register_exitproc  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   99 Value:  00000000000103e4
+ [ 75]    Name:                                    unlink  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   27 Value:  000000000001073c
+ [ 76]    Name:                                         c  
+ Bind:   GLOBAL
+ Type:   OBJECT Size:   4 Value:  0000000000011768
+ [ 77]    Name:                                      fork  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   19 Value:  0000000000010770
+ [ 78]    Name:                           __syscall_error  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   31 Value:  000000000001053c
+ [ 79]    Name:                                      sbrk  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   91 Value:  0000000000010888
+ [ 80]    Name:                              gettimeofday  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   31 Value:  00000000000107d2
+ [ 81]    Name:                               __bss_start  
+ Bind:   GLOBAL
+ Type:   NOTYPE Size:   0 Value:  0000000000011780
+ [ 82]    Name:                                    memset  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   170 Value:  000000000001033a
+ [ 83]    Name:                                      main  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   47 Value:  0000000000010220
+ [ 84]    Name:                                    getcwd  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   3 Value:  0000000000010870
+ [ 85]    Name:                                     _fini  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   2 Value:  00000000000100f2
+ [ 86]    Name:                                    atexit  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   11 Value:  0000000000010252
+ [ 87]    Name:                               _impure_ptr  
+ Bind:   GLOBAL
+ Type:   OBJECT Size:   8 Value:  0000000000011778
+ [ 88]    Name:                                     ftime  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   11 Value:  0000000000010854
+ [ 89]    Name:                                      stat  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   57 Value:  000000000001061e
+ [ 90]    Name:                                    access  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   27 Value:  00000000000106c4
+ [ 91]    Name:                                    _edata  
+ Bind:   GLOBAL
+ Type:   NOTYPE Size:   0 Value:  0000000000011780
+ [ 92]    Name:                                      _end  
+ Bind:   GLOBAL
+ Type:   NOTYPE Size:   0 Value:  00000000000117d0
+ [ 93]    Name:                                      link  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   31 Value:  000000000001071c
+ [ 94]    Name:                                      exit  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   33 Value:  0000000000010260
+ [ 95]    Name:                                         a  
+ Bind:   GLOBAL
+ Type:   OBJECT Size:   4 Value:  0000000000011760
+ [ 96]    Name:                                    openat  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   27 Value:  0000000000010598
+ [ 97]    Name:                                     _exit  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   25 Value:  00000000000108e4
+ [ 98]    Name:                                      open  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   31 Value:  0000000000010578
+ [ 99]    Name:                                     close  
+ Bind:   GLOBAL
+ Type:   FUNC Size:   27 Value:  0000000000010700
+
+program headers:
+ [  0]
+ Type:   LOAD Flags:   5 Offset:   0000000000000000 VirtAddr:  0000000000010000
+ PhysAddr:   0000000000010000 FileSiz:   319585120 MemSiz:   2408 Align:   4096
+ [  1]
+ Type:   LOAD Flags:   6 Offset:   0000000000001000 VirtAddr:  0000000000011000
+ PhysAddr:   0000000000011000 FileSiz:   319585120 MemSiz:   2000 Align:   4096
