@@ -1,0 +1,4 @@
+input "./test.sh" to make and run the two trace files
+sim usage:
+./sim <trace filename>
+You NEED to input some cache parameters.
