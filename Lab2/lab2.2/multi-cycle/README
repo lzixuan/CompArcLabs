@@ -1,0 +1,4 @@
+Simulation.cpp:模拟器源代码
+测试程序编译选项：riscv64-unknown-elf-g++ -Wa,-march=rv64g
+测试方法：运行./test.sh即可自动编译并完成测试
+测试结果保存在results.txt，包括运行结果、执行指令数量、CPI
